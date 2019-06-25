@@ -11,3 +11,103 @@ FreeCAD | Free for All | Modeling, assembling, and drafting prototypes with uniq
 Blender | Free for All | A software designed to create detailed 3D models for multi-purpose use | * Versatile / * Ability to model complex features / * Open-Sourced | * Steep learning curve / * No structual analysis tools | Create and edit detailed 3D models 
 
 **Company must make <$100,000/yr or equivalent in foreign currency on goods and services*
+
+## Pi Case Anaylsis 
+- Steps for building a pi case: 
+      
+      1.) Plan 
+          - Draw a model of the Pi with dimensions
+          - Analyze what components will be used for the project 
+          - Think about what material you would like to use because that could influence the strucutre of your design
+                 
+                 Here is an analysis of different material properies for the constuction of the outer casing:
+                    
+                    3D Printed Plastics: 
+                          
+                     ABS:
+                     
+                           Pros:
+		                         - A thermoplastic that can be used in industrial applications
+                             - Cheapest thermoplastic on the market
+		                         - Semi-Flexable and shock resistant
+		                         - Can withstand temps btwn -20°C to 80°C
+
+                           Cons:
+                             - Shrinks on contact with air
+                             - Relieases fumes that causes headaches if not ventilated well
+	                    
+                      PLA: 
+                      
+                           Pros:
+		                          - Biodegradable
+		                          - Easiest to use
+		                          - Can deteriorate in contact with water
+
+                           Cons:
+                             - Brittle 
+                             - Attracts water easily which caused difficulty printing
+	                    
+
+	                    Carbon fiber:
+                           
+                           Pros:
+		                         - High strength 
+		                         - Lightweight
+		                         - Can be mixed with other plasics to increase strength
+                             - Prints very well
+ 
+                           Cons:
+                             - Very expensive 
+                             - Abrasive to the printer (Can cause damage if not tuned to take abrasive material)
+                             
+                      Nylon:
+                           
+                           Pros:                      
+                             - Lightweight
+                             - Strong
+                             - Wearproof 
+                             - Flexable
+                             - Thermo-resistant
+
+                           Cons:
+                             - WARNING: Nylon emits TOXIC fumes. DO NOT INHALE! May cause heavy irritation to the throat and lungs.
+                             - Requires high temprature to melt plastic (>240°C)
+                             
+                      Polycarbon: 
+                           
+                           Pros:                      
+                             - Shatter Resistant
+                             - Heavy impact resistance
+  
+                           Cons:
+                             - Requires a lot of heat (>= 300°C) to print
+                             
+                      Flexable PLA:
+                           
+                           Pros:                      
+                             - Durable
+                             - Extremely Flexable 
+
+                           Cons:
+                             - Must print slow to prevent clogs
+                             - Very difficult to print with
+          
+      2.) Design
+          - Integrate every aspect that would improve the performance of the item enclosed
+          - Take into consideration the size of the case should have clearance of AT LEAST 0.4mm 
+          - Model the whole case first then split it in two and if possible, try designing a snapfits for connecting the two
+          - IMPORTANT: Always add ventilation to the case to prevent overheating
+          
+      3.) Test
+          - Conduct internal structual analysis to ensure that the case can withstand a certain amount of force without damaging internal components
+          - Export your model as an STL file or whichever file your tool can translate to construct the prototype
+          - Configure the internal properties of the system
+              - For 3D Printers: 
+                  - For the strongest and most economical option, try printing with 15% infill and 4 Shells
+                  - The more shells, the longer it takes to print but the stronger the product will become
+                  
+- Notes from other Designs
+   - 
+ 
+ ## Case Design Plan
+   

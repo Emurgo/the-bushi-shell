@@ -13,7 +13,7 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
 **Company must make <$100,000/yr or equivalent in foreign currency on goods and services*
 
 ## Pi Case Anaylsis 
-- Steps for building a pi case: 
+ ### Steps for building a pi case: 
       
       1.) Plan 
           - Draw a model of the Pi with dimensions
@@ -106,8 +106,12 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
                   - For the strongest and most economical option, try printing with 15% infill and 4 Shells
                   - The more shells, the longer it takes to print but the stronger the product will become
                   
-- Notes from other Designs
-   - 
+ ### Notes from other Designs
+      - All current stakeboxes are simlar in design. These cases gives access to all the ports in the pi. 
+      - The Casa node includes a interchangable power connection so people can use their device anywhere in the world. 
+      - Some designs, such as the casa node, contains an external hard drive to increase diskspace for extra storage of transactions. 
  
- ## Case Design Plan
-   
+ ## Case Design Ideas
+    - The RockPi 4 has a power button but does not have a computing button, so in the design may include slots where we will manually add an LED light to indicate the status of the mechanism. 
+    
+         

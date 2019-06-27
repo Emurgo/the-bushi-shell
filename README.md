@@ -112,10 +112,9 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
       - Some designs, such as the casa node, contains an external hard drive to increase diskspace for extra storage of transactions. 
  
  ## Case Design
-    ### Objectives 
+    Objectives:
      - The casing must withstand an average impact force of at least 16 N to withstand a fall from a table. 
      - Must have room for two LEDs for displaying the power and the status
      - Ensure that all essential ports are exposed with at least 0.4mm of tolerence for easier installation. 
      - Find a material that can economically absorb impact force to ensure the case can protect the Pi in different environments. 
-     - Ensure that the casing can be aesthetically pleasing to attract more people to download and improve the case.   
-         
+     - Ensure that the casing can be aesthetically pleasing to attract more people to download and improve the case. 

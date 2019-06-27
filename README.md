@@ -111,7 +111,11 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
       - The Casa node includes a interchangable power connection so people can use their device anywhere in the world. 
       - Some designs, such as the casa node, contains an external hard drive to increase diskspace for extra storage of transactions. 
  
- ## Case Design Ideas
-    - The RockPi 4 has a power button but does not have a computing button, so in the design may include slots where we will manually add an LED light to indicate the status of the mechanism. 
-    
+ ## Case Design
+    ### Objectives 
+     - The casing must withstand an average impact force of at least 16 N to withstand a fall from a table. 
+     - Must have room for two LEDs for displaying the power and the status
+     - Ensure that all essential ports are exposed with at least 0.4mm of tolerence for easier installation. 
+     - Find a material that can economically absorb impact force to ensure the case can protect the Pi in different environments. 
+     - Ensure that the casing can be aesthetically pleasing to attract more people to download and improve the case.   
          

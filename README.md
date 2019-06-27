@@ -113,5 +113,7 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
  
  ## Case Design Ideas
     - The RockPi 4 has a power button but does not have a computing button, so in the design may include slots where we will manually add an LED light to indicate the status of the mechanism. 
+
+## Objective
     
          

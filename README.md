@@ -117,7 +117,7 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
 
 ## Case Design
 ### Objective:
-     - Provide people with a customizable staking station
+     - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi
      - Advertise Cardano to an open community
      - Creating an easier way to conduct staking transactions
 

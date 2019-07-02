@@ -119,7 +119,6 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
 ### Objective:
      - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi
      - Open source 3D printable case designs
-     - Creating an easier way to conduct staking transactions
 
 ### Requirements:
      - The casing must withstand an average impact force of at least 16 N to withstand a fall from a table. 

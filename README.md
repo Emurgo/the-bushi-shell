@@ -111,7 +111,7 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
    
    Name | Picture | Type of lock Design | Pros | Cons
    ---- | ------- | -------------- | -------------- | ----------------
-   Current Staking Cases | <img src = "https://cdn.shopify.com/s/files/1/2685/8754/products/Reddcoin_960x960.png?v=1518785883" height = 100 width = 240> | Snap-on Lock | Easy access to all ports / Shake-proof / No tools needed / Professional appearance | Requires percise design 
+   Current Staking Cases | <img src = "https://cdn.shopify.com/s/files/1/2685/8754/products/Reddcoin_960x960.png?v=1518785883" height = 100 width = 240> | Snap-on Lock | Easy access to all ports / Shake-proof / No tools needed / Professional appearance | Requires precise design 
    Sleeve Cases | <img src ="https://cdn.thingiverse.com/renders/14/c5/00/85/15/IMGP0789_preview_featured.jpg"  height = 80 weight = 100> |  Slot Lock | Simple Design / Easy to print  | Requires constant Z-axis leveling / Easily opens
    Screwed-on Cases (VESA) | <img src ="https://cdn.thingiverse.com/renders/b8/00/d0/e2/72/30mm-no-fan_preview_featured.jpg" height = 80 weight = 100> | Screw to Lock | Able to be installed onto different surfaces | Requires tools to maintenance / Ware of material (especially plastic)
 

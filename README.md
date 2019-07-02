@@ -107,12 +107,20 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
                   - The more shells, the longer it takes to print but the stronger the product will become
                   
  ### Notes from other Designs
-      - All current stakeboxes are simlar in design. These cases gives access to all the ports in the pi. 
-      - The Casa node includes a interchangable power connection so people can use their device anywhere in the world. 
-      - Some designs, such as the casa node, contains an external hard drive to increase diskspace for extra storage of transactions. 
- 
- ## Case Design
- ### Objectives:
+ - Here is a comparison list of all different hardware and software specs of all the devices currently in the community and their physical pros and cons:
+   
+   Name | Picture | Type of lock Design | Pros | Cons
+   ---- | ------- | -------------- | -------------- | ----------------
+   Current Staking Cases | <img src = "https://cdn.shopify.com/s/files/1/2685/8754/products/Reddcoin_960x960.png?v=1518785883" height = 100 width = 240> | Snap-on Lock | Easy access to all ports / Shake-proof / No tools needed / Professional appearance | Requires precise design 
+   Sleeve Cases | <img src ="https://cdn.thingiverse.com/renders/14/c5/00/85/15/IMGP0789_preview_featured.jpg"  height = 80 weight = 100> |  Slot Lock | Simple Design / Easy to print  | Requires constant Z-axis leveling / Easily opens
+   Screwed-on Cases (VESA) | <img src ="https://cdn.thingiverse.com/renders/b8/00/d0/e2/72/30mm-no-fan_preview_featured.jpg" height = 80 weight = 100> | Screw to Lock | Able to be installed onto different surfaces | Requires tools to maintenance / Ware of material (especially plastic)
+
+## Case Design
+### Objective:
+     - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi
+     - Open source 3D printable case designs
+
+### Requirements:
      - The casing must withstand an average impact force of at least 16 N to withstand a fall from a table. 
      - Must have room for two LEDs for displaying the power and the status
      - Ensure that all essential ports are exposed with at least 0.4mm of tolerence for easier installation. 
@@ -123,14 +131,20 @@ Blender | Free for All | A software designed to create detailed 3D models for mu
 
 - This case would be different than the current ones out in the market. With a sleak curved design, this case would not only be able to protect the case, but look aestheically pleasing as well to distinguish our design from the rest of the community. In turn, more people would be incline to modify the design to fit their needs. 
 
-    Lid design: 
-      - After conducting research on the different designs of casings for microcomputers, stakeboxes, and other microprocessing devices, I came to the conclustion that this system should have a double locking system to ensure that the case stays in place even in the event of a fall. 
-      - The case accomplishes this by having 3 step locking system bound to a curve. These are the steps to open the case: 
-         1.) Pull the lid slightly
-         2.) Slide the lid down the curve of the case until it stops
-         3.) Pull off the lid for access to the internal devices
-      - By implementing this system, it would be able to prevent premature removal of the top protection of the device.
+#### Lid design: 
+     - After conducting research on the different designs of casings for microcomputers, stakeboxes, and other microprocessing devices, I came to the conclustion that this system should have a double locking system to ensure that the case stays in place even in the event of a fall. 
+     - The case accomplishes this by having 3 step locking system bound to a curve. These are the steps to open the case: 
+         
+           1.) Pull the lid slightly
+           2.) Slide the lid down the curve of the case until it stops
+           3.) Pull off the lid for access to the internal devices
+      
+    - By implementing this system, it would be able to prevent premature removal of the top protection of the device.
 
       Note: There are still some modificaitons to be done. 
 
       - Currently, this system is still undergoing statical analysis to see if it is ready for production. 
+
+** Discontinued for risk of printing difficulty **
+
+### Prototype 2 ():

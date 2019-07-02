@@ -7,7 +7,7 @@
                  
 * Here is an analysis of different material properies for the constuction of the outer casing: 
 
-[3D Printer Plastic Properties](docs/Prop/3DPrinterPlastics)
+[3D Printer Plastic Properties](docs/3DPrinterPlastics)
 
       2.) Design
           - Integrate every aspect that would improve the performance of the item enclosed

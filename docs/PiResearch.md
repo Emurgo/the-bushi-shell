@@ -5,9 +5,6 @@
           - Analyze what components will be used for the project 
           - Think about what material you would like to use because that could influence the strucutre of your design
                  
-* Here is an analysis of different material properies for the constuction of the outer casing: 
-
-[3D Printer Plastic Properties](docs/3DPrinterPlastics.md)
 
       2.) Design
           - Integrate every aspect that would improve the performance of the item enclosed

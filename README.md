@@ -5,6 +5,9 @@
 ## Pi Research 
 [PiResearch.md](docs/PiResearch.md)
 
+* List of different 3D printing plastics and their properties: 
+
+   [3DPrinterPlastics.md](docs/3DPrinterPlastics.md)
 ## Case Design
 ### Objective:
       - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi

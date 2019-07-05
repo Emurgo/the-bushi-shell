@@ -23,7 +23,7 @@
 
 ### Microcomputer Dimensions:
 
-[RockPiDimensions.md](doc/RockPiDimensions.md)    
+[RockPiDimensions.md](docs/RockPiDimensions.md)    
 
 # Prototype 1 
 ## Codename: Hideyoshi 
@@ -44,9 +44,34 @@
 
       - Currently, this system is still undergoing statical analysis to see if it is ready for production. 
 
-** Discontinued for risk of printing difficulty **
+### ** **Discontinued for risk of printing difficulty** **
 
 # Prototype 2 
 ## Codename: Oda
-- Bottom Case
-     - Dimensions: 60-65mm x 95mm x 
+
+Please read: 
+[Pre-design](docs/Pre-design.md)
+
+### Plan:
+ - Case will be made up of a top and a bottom components.
+
+ - **Case Dimensions (Estimate):** 95 x 60 x 30 (mm) 
+ - There will be three different lock systems (clip, double slot, and pin lock) to ensure that the case does not come off unless the user requests it. 
+
+ #### Bottom 
+
+  - Must include a 1-3mm gap between the bottom of the Pi and the floor of the inside of the case to prevent friction and damage to the board. 
+  
+  - Ensure a 0.05mm threshold between the case and the associated port. This is to make sure that the case will truely fit the Pi. 
+  - Creation of male connection pins on the area where holes appear on the Pi. The pins are design to be one element that would aid on the prevention of movement of the device.
+  - Design bumps that will properly connect to a double lock device on the top case.
+
+     ##### Possible Add-on Ideas:
+     - Corner clips to keep the pi in place while not causing damage to the corners.
+     - An upper enclosure that would hug around the pi when the case is closing.
+
+ #### Top 
+   - The top will consist of two different portions, the lid itself and the locking mechanisms. 
+      ##### Locking Mechanisms
+      
+      ##### Lid

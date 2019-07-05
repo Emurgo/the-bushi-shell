@@ -1,14 +1,14 @@
-## CAD Comparison Analysis
+## CAD Comparison Analysis:
 
 [CADComparison.md](docs/CADComparison.md)
 
-## Pi Research 
+## Pi Research:
 [PiResearch.md](docs/PiResearch.md)
 
 * List of different 3D printing plastics and their properties: 
 
    [3DPrinterPlastics.md](docs/3DPrinterPlastics.md)
-## Case Design
+# Case Design
 ### Objective:
       - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi
       - Open source 3D printable case designs
@@ -21,7 +21,12 @@
      - Find a material that can economically absorb impact force to ensure the case can protect the Pi in different environments. 
      - Ensure that the casing can be aesthetically pleasing to attract more people to download and improve the case. 
 
-### Prototype 1 (Futuristic Curve):
+### Microcomputer Dimensions:
+
+[RockPiDimensions.md](doc/RockPiDimensions.md)    
+
+# Prototype 1 
+## Codename: Hideyoshi 
 
 - This case would be different than the current ones out in the market. With a sleak curved design, this case would not only be able to protect the case, but look aestheically pleasing as well to distinguish our design from the rest of the community. In turn, more people would be incline to modify the design to fit their needs. 
 
@@ -40,3 +45,8 @@
       - Currently, this system is still undergoing statical analysis to see if it is ready for production. 
 
 ** Discontinued for risk of printing difficulty **
+
+# Prototype 2 
+## Codename: Oda
+- Bottom Case
+     - Dimensions: 60-65mm x 95mm x 

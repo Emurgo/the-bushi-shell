@@ -60,18 +60,55 @@ Please read:
 
  #### Bottom 
 
-  - Must include a 1-3mm gap between the bottom of the Pi and the floor of the inside of the case to prevent friction and damage to the board. 
+    - A Heat sink will be included alongside with the Pi  that would require a 1-3mm washer 
   
-  - Ensure a 0.05mm threshold between the case and the associated port. This is to make sure that the case will truely fit the Pi. 
-  - Creation of male connection pins on the area where holes appear on the Pi. The pins are design to be one element that would aid on the prevention of movement of the device.
-  - Design bumps that will properly connect to a double lock device on the top case.
+    - Ensure a 0.05mm threshold between the case and the associated port. This is to make sure that the case will truely fit the Pi. 
+   
+    - Creation of male connection pins on the area where holes appear on the Pi. The pins are design to be one element that would aid on the prevention of movement of the device.
+   
+    - Design bumps that will properly connect to a double lock device on the top case.
 
-     ##### Possible Add-on Ideas:
+   ##### Possible Add-on Ideas:
      - Corner clips to keep the pi in place while not causing damage to the corners.
      - An upper enclosure that would hug around the pi when the case is closing.
 
- #### Top 
-   - The top will consist of two different portions, the lid itself and the locking mechanisms. 
-      ##### Locking Mechanisms
-      
-      ##### Lid
+ #### Top
+
+##### Locking Mechanisms
+    - The Lid of the case will consist of 3 different locking mechanisms:
+    
+    1.) Clip locks: This clip would attach when the system is fully in position to prevent movement of the case as a whole.
+
+    2.) Screw lock: For the Pi and heatsink screws will be included on all four corners to secure the Pi and heatsink in place. 
+
+    3.) Double-Slot: A zig-zag lock that would require the user to slightly pull up, slide forward, then take out the lid. This is to ensure that the lid does not come off unless the user desires. 
+
+
+
+
+# RockPi Configuration
+
+## Hardware needed
+ - RockPi 4B (With Dualband 2,4/5GHz WLAN/Bluetooth 5.0)
+ - A 32GB or 64GB eMMC 
+ - HDMI Cable
+ - USB-C Power cord
+ - eMMC to microSD adapter
+ - USB card reader or microUSB to USB card reader
+ - USB Keyboard and Mouse
+ 
+
+## How to install the Armbian OS to an eMMC
+
+ ### 1.) Download 
+ - Download the <a href = 'https://www.armbian.com/rock-pi-4/'>Armbian</a> Buster OS 
+
+ - Install <a href = 'https://www.balena.io/etcher/'> Etcher</a> for writing the OS to your storage device.
+
+ ### 2.) Write
+ - After the OS and the writing tool are both installed, plug in the eMMC and format it using an <a href ='https://www.sdcard.org/downloads/formatter/' > SD card formatter</a>.
+
+- Unzip the OS using <a href = 'https://www.7-zip.org/'>7-zip</a> (Windows), <a href = 'https://www.keka.io/en/'>keka</a> (Mac OS), or 7z (Linux) and use Etcher to write the unzipped image file to the eMMC. 
+
+ ### 3.) Boot
+- 

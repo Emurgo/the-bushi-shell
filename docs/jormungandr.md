@@ -17,7 +17,7 @@
 
     9.) install jcli: cargo install --path jcli
 
-**Note:** The SD is able to run both jormungandr and jcli
+**Note:** The microSD card is able to run both jormungandr and jcli
 
 # How to make a node using Jormungandr
 
@@ -25,4 +25,8 @@
 
 2.) Run inside new directory: ../jormungander/scripts/bootstrap
  - Add:  '| tee (file_name).txt' at the end of this code to save the configuration
-
+ - After running this you will recieve information on you faucet account, the amount, a pool id, and more information that will be stored in the text file created.  
+ 
+ 3.) To start the node, look for the line of code given on your bootstrap results that states 'To start node:' and run it with **&> (file_name).log &** to save all node activity on a log. 
+- To see if it is operational, run **tail -f (file_name).log** to check recent data. 
+- To access account information, run **jcli rest v0 account get (faucet account) -h "host"**

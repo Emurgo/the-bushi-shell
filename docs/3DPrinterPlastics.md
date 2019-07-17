@@ -1,67 +1,67 @@
-ABS:
-                     
-  Pros:
-     - A thermoplastic that can be used in industrial applications
-     - Cheapest thermoplastic on the market
-	 - Semi-Flexable and shock resistant
+## ABS:
+  - Pros:
+     
+    - A thermoplastic that can be used in industrial applications
+    - Cheapest thermoplastic on the market
+  	 - Semi-Flexable and shock resistant
 	 - Can withstand temps btwn -20°C to 80°C
 
-  Cons:
+- Cons:
      - Shrinks on contact with air
      - Relieases fumes that causes headaches if not ventilated well
 	                    
-PLA: 
+## PLA: 
                       
-  Pros:
-	 - Biodegradable
-	 - Easiest to use
-	 - Can deteriorate in contact with water
-
-  Cons:
-     - Brittle 
-     - Attracts water easily which caused difficulty printing
+ - Pros:
+	   
+      - Biodegradable
+	   - Easiest to use
+	   - Can deteriorate in contact with water
+ 
+ - Cons:
+      - Brittle 
+      - Attracts water easily which caused difficulty printing
 	                    
 
-Carbon fiber:
-                           
-  Pros:
+## Carbon fiber:                       
+  - Pros:
 	 - High strength 
 	 - Lightweight
 	 - Can be mixed with other plasics to increase strength
      - Prints very well
  
-  Cons:
+  - Cons:
      - Very expensive 
      - Abrasive to the printer (Can cause damage if not tuned to take abrasive material)
                              
- Nylon:
+ ## Nylon:
                            
-  Pros:                      
+  - Pros:                      
      - Lightweight
      - Strong
      - Wearproof 
      - Flexable
      - Thermo-resistant
 
-  Cons:
+  - Cons:
      - WARNING: Nylon emits TOXIC fumes. DO NOT INHALE! May cause heavy irritation to the throat and lungs.
      - Requires high temprature to melt plastic (>240°C)
                              
-Polycarbon: 
+## Polycarbon: 
                            
-  Pros:                      
+  - Pros:                      
      - Shatter Resistant
      - Heavy impact resistance
   
-  Cons:
+  - Cons:
      - Requires a lot of heat (>= 300°C) to print
                              
-Flexable PLA:
+## Flexable PLA:
                            
-  Pros:                      
+  - Pros:                      
      - Durable
      - Extremely Flexable 
 
-  Cons:
+  - Cons:
      - Must print slow to prevent clogs
      - Very difficult to print with

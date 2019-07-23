@@ -33,6 +33,9 @@
 ## Codename: [Oda](docs/Oda.md)
 ### ** **Discontinued for severe design issues** **
 
+# Prototype 3 
+## Codename: [Meiji](docs/Meiji.md)
+
 # RockPi Configuration
 
 ## Hardware needed

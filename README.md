@@ -44,7 +44,7 @@
  - HDMI Cable
  - USB-C Power cord
  - eMMC to microSD adapter
- - USB card reader or microUSB to USB card reader
+ - SD card reader or microSD to SD card adapter
  - USB Keyboard and Mouse
  
 

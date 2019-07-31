@@ -17,7 +17,7 @@
 
 - **GPIO:** 50.93 x 5.03 x 9.10
 
-- **MicroUSB Port (with MicroUSB):** 14.73 x 11.30 x 1.00
+- **MicroSD Port (with MicroSD):** 14.73 x 11.30 x 1.00
 
 - **Hole Diameter (4):** 3.47
 

@@ -65,7 +65,7 @@ This is the main component of the layer comprised of the top section that is des
 
 **NOTE:** The case must be 3D printed with the top view facing the build plate. 
  
-   Features: 
+   **Features:** 
     
    - **Base:** 1.25mm thick base connected to the walls of the case. The back of the base is designed to wrap around the back ports of a microcomputer to help prevent movement of the Pi when closed.
 
@@ -76,12 +76,29 @@ This is the main component of the layer comprised of the top section that is des
          2.) Limit the area that bridging would be required on to improve 3D-printing performance and minimalize suports needed. 
 
          3.) Access to the GPIO pins without interfering with the supports or jeoperdizing printablity.  
-    - **Threaded Holes (4):**  Located on the four corners lined up with where the four holes are located on the Pi. 
+    - **Spacer Holes (4):**  Located on the four corners lined up with where the four holes are located on the Pi. This area will host the head of the screw. 
       
          **Note:** The holes located on the curved section of the top will need an 8.89mm (+/- 1%) spacer which I will design alongside the case. 
 
     - **Side Ribs (6):** One both sides of the top case contains sets of ribs that will help aid the 3D printing process by decreasing the amount of bridging the system will produce in turn less supports will be needed.
+
+    - **Side Port Slide Extusion (SPSE):** On the side where the HDMI, Headphone Jack, and power ports face the wall of case contains an extrusion that allows these ports to slide freely when the user removes the contraints. 
+    
+    - **Side Board Slide Extrusion (SBSE):** The SBSE provides a light grip on the side of the microcomputer board which allows the user to remove the pi easily and helps support the Pi when at rest. 
+
+    - **Pi Stand Slide Extrusions (PSSE):** The PSSE gives an area which allows the Pi stand component to slide through with the microcomputer to help secure the component with the rest of the case. 
  
 
 #### 2.) Pi stand
 
+This detachable portion of the layer was made to host the pi and provide an easy way to detach the pi when needed. 
+
+**NOTE:** This piece must be 3D printed with the bottom view positoned on the build plate. 
+
+**Features:** 
+      
+ - **Threaded Holes (4):** A 1mm thick spacer stretching 2.7mm from the base contains a threaded center that would allow the system to secure the microcomputer and board to the elements below.  
+
+ - **Heat Sink Link:** Invented to help transfer the heat produced from the CPU to the heatsink. 
+ - **Pull Slide Tab:** On the left side of the back section of the stand contains a small bump designed to help pull out the stand from the case.  
+ - **Front End Bumper:** This small extrusion helps limit the distance the stand can move along the case. 

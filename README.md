@@ -1,64 +1,61 @@
-## CAD Comparison Analysis:
+# The Bushi Shell Project
 
+## **Plan**
+### **CAD Comparison Analysis**
+
+The following document contains the pros and cons of the different Computer-Aided Design software that could be used for future development of prototypes: 
 [CAD Programs](docs/CADComparison.md)
 
-## Pi Research:
-[Pi Research Findings](docs/PiResearch.md)
+### **Pi Case Design Research**
 
-* List of different 3D printing plastics and their properties: 
+Here contains the layout of the process of designing a microcomputer case: 
+[Pi Design Research Findings](docs/PiResearch.md)
 
-   [3D Printer Plastics](docs/3DPrinterPlastics.md)
-# Case Design
-### Objective:
-      - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi
-      - Open source 3D printable case designs
+## **Design**
+### **Objective:**
+ - Provide a complete open source guide to run a Cardano Rust full node in single-board computers like Rockpi
+
+- Open source 3D printable case designs
      
 
-### Requirements:
-     - The casing must withstand an average impact force of at least 16 N to withstand a fall from a table. 
-     - Must have room for two LEDs for displaying the power and the status
-     - Ensure that all essential ports are exposed with at least 0.4mm of tolerence for easier installation. 
-     - Find a material that can economically absorb impact force to ensure the case can protect the Pi in different environments. 
-     - Ensure that the casing can be aesthetically pleasing to attract more people to download and improve the case. 
+### **Requirements:**
+ - The casing must withstand an average impact force of at least 16 N to withstand a fall from a table. 
 
-### Microcomputer Dimensions:
+ - Must have room for two LEDs for displaying the power and the status
+ - Ensure that all essential ports are exposed with at least 0.4mm of tolerence for easier installation. 
+ - Find a material that can economically absorb impact force to ensure the case can protect the Pi in different environments. 
+ - Ensure that the casing can be aesthetically pleasing to attract more people to download and improve the case. 
 
-[RockPi](docs/RockPiDimensions.md)    
+### **Microcomputer Dimensions:**
+- The documents below provides a reference on the locations of different locations of components, gaps, and ports of different microcomputer systems to aid the designing process: 
+  
+  - [RockPi 4B](docs/RockPiDimensions.md)
+  - [RaspberryPi 4B](docs/RaspberryPiDimensions.md)*    
 
-# Prototype 1 
-## Codename: [Hideyoshi](docs/Hideyoshi.md)
-### ** **Discontinued for risk of printing difficulty** **
+###### ***Must be measured**
 
-# Prototype 2 
-## Codename: [Oda](docs/Oda.md)
-### ** **Discontinued for severe design issues** **
+### **Case Prototypes:**
+   ### ***Prototype 1***
+   #### Codename: [Hideyoshi](docs/Hideyoshi.md)
+   #### **Status:** 
+   ** Discontinued for risk of printing difficulty **
 
-# Prototype 3 
-## Codename: [Meiji](docs/Meiji.md)
+   ### ***Prototype 2*** 
+   #### Codename: [Oda](docs/Oda.md)
+   #### **Status:** 
+   ** Discontinued for severe design issues **
 
-# RockPi Configuration
+   ### ***Prototype 3*** 
+   #### Codename: [Meiji](docs/Meiji.md)
+   #### **Status:** 
+   *Design Phase*    
 
-## Hardware needed
- - RockPi 4B (With Dualband 2,4/5GHz WLAN/Bluetooth 5.0)
- - A 32GB or 64GB eMMC 
- - HDMI Cable
- - USB-C Power cord
- - eMMC to microSD adapter
- - SD card reader or microSD to SD card adapter
- - USB Keyboard and Mouse
- 
 
-## How to install the Armbian OS to an eMMC
+### **3D Printing Guide:**
+- Once the designing process is complete, it is important to know what material would be benificial to be used for printing these components. This list contains the pros and cons of the most retable plastics that are commonly used by most 3D printers: [3D Printer Filiment Types](docs/3DPrinterPlastics.md)
 
- ### 1.) Download 
- - Download the <a href = 'https://www.armbian.com/rock-pi-4/'>Armbian</a> Buster OS 
 
- - Install <a href = 'https://www.balena.io/etcher/'> Etcher</a> for writing the OS to your storage device.
+## **RockPi Configuration:**
 
- ### 2.) Write
- - After the OS and the writing tool are both installed, plug in the eMMC and format it using an <a href ='https://www.sdcard.org/downloads/formatter/' > SD card formatter</a>.
-
-- Unzip the OS using <a href = 'https://www.7-zip.org/'>7-zip</a> (Windows), <a href = 'https://www.keka.io/en/'>keka</a> (Mac OS), or 7z (Linux) and use Etcher to write the unzipped image file to the eMMC. 
-
- ### 3.) Boot
-- 
+To start instaling the operating system for this project and the steps afterwards click the 
+[RockPi Configuration](docs/RockPiConfig.md).

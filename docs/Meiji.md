@@ -39,8 +39,8 @@
    - A dimension of 96mm x 54 mm x (height depends on user)
 
 - However, for the current project we are working on, I created a specific design for two layers and the top and bottom layer case. 
-## Microcomputer Layer
-### Contraints & Scenarios
+## **Microcomputer Layer**
+### *Contraints & Scenarios*
 #### Requisites
 - Easy removal of the Pi without damaging internal components. 
 
@@ -56,10 +56,11 @@ This section is for painting a picture of different situations tht would need to
 - Can the Pi link with essential components above or below it? 
 - How would the user remove the microcomputer without disturbing the supports?
 
-### Prototype features & functions
+### *Prototype features & functions*
 The Pi layer is comprised of two seperate components:
 
 #### 1.) The Case
+
 
 This is the main component of the layer comprised of the top section that is designed to minimalize movement. 
 
@@ -68,6 +69,7 @@ This is the main component of the layer comprised of the top section that is des
    **Features:** 
     
    - **Base:** 1.25mm thick base connected to the walls of the case. The back of the base is designed to wrap around the back ports of a microcomputer to help prevent movement of the Pi when closed.
+   
 
    - **Air Holes:** A large airhole throughout the flat portion of the case is designed to:
    
@@ -87,9 +89,10 @@ This is the main component of the layer comprised of the top section that is des
     - **Side Board Slide Extrusion (SBSE):** The SBSE provides a light grip on the side of the microcomputer board which allows the user to remove the pi easily and helps support the Pi when at rest. 
 
     - **Pi Stand Slide Extrusions (PSSE):** The PSSE gives an area which allows the Pi stand component to slide through with the microcomputer to help secure the component with the rest of the case. 
+
  
 
-#### 2.) Pi stand
+#### 2.) Pi Slide
 
 This detachable portion of the layer was made to host the pi and provide an easy way to detach the pi when needed. 
 
@@ -99,6 +102,40 @@ This detachable portion of the layer was made to host the pi and provide an easy
       
  - **Threaded Holes (4):** A 1mm thick spacer stretching 2.7mm from the base contains a threaded center that would allow the system to secure the microcomputer and board to the elements below.  
 
- - **Heat Sink Link:** Invented to help transfer the heat produced from the CPU to the heatsink. 
- - **Pull Slide Tab:** On the left side of the back section of the stand contains a small bump designed to help pull out the stand from the case.  
- - **Front End Bumper:** This small extrusion helps limit the distance the stand can move along the case. 
+- **Friction Wall:** A side extrusion along the sides of the stand perpendicular to the back of the stand.
+- **Bump Locks:** On both sides of the slide component there is a bump that matches with the indent on the Pi layer to lock the back of the slide in place to prevent movement.  
+
+ ### **Possible Issues to be resolved** 
+ - Ensure that there are filets in locations that could produce bridging or overhangs. (see [YTH rule](Pre-design))
+
+ - Creation of blueprints to detail areas that might be a structual risk for modification. 
+ - Conduction of structual analysis on each product to see if there is any possible stuctural issues. 
+ - For the custom layer, when the user changes the size of the layer, they would have to change a few other parts to be able to successfully change the dimensions. This needs to be fixed. 
+
+ - The case should be 3D printed to view the strengths and weaknesses of the design. 
+
+ - Evaluate how effective the bump locks stay in place and easiness to remove or insert. 
+
+ - Measure the Dimensions of the other components.  
+ 
+
+ ### **How to 3D-Print each part**
+ - **Pi Layer:** The flat top of the layer must face the plate of the printer. 
+   
+   ![Pi](Pi.png)
+ - **Slide Component:** The section containing the ports for the USB and ethernet cable must face the build plate.
+
+ ![Slide](Slide.png)
+
+ - **Lid:** The top of the lid must face the build plate. 
+
+ ![Lid](Lid.png)
+ - **Bottom:** The bottom of the layer must face the build plate. 
+
+![Bottom](Bottom.png)
+
+ - **Dummy Heatsink:** This component must printed on the bottom view facing the build plate.  
+
+ ![Dummy Heatsink](Dummy_Heatsink.png)
+
+ 
